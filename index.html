@@ -6,10 +6,93 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Самый вкусный кофе</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+<header class="header" id="intro">
+    <div class="container">
+        <nav class="navbar">
+            <h1 class="title">Coffee In</h1>
+            <!-- /.title -->
+            <ul class="navbar-menu">
+                <li class="navbar-menu__item"><a href="#intro" class="link navbar-menu__link">Главная</a></li>
+                <li class="navbar-menu__item"><a href="#about" class="link navbar-menu__link">О нас</a></li>
+                <li class="navbar-menu__item"><a href="#order" class="link navbar-menu__link">Заказать кофе</a></li>
+                <li class="navbar-menu__item"><a href="#conts" class="link navbar-menu__link">Контакты</a></li>
+            </ul>
+            <!-- /.navbar-menu -->
+        </nav>
+        <!-- /.navbar -->
+        <h2 class="teaser">Хотите попробовать настоящий кофе? Тогда ждём вас в гости!</h2>
+        <h3 class="slogan">Любовь с первой чашки</h3>
+        <a href="#order" class="btn btn-order">Заказать кофе</a>
+    </div>
+    <!-- /.container -->
+</header>
+<main class="main">
+    <section class="section section-about" id="about">
+        <h2 class="section-title">О нас</h2>
+        <div class="container">
+            <p class="about-text">“Coffe In” — Это узнаваемый и любимый многими бренд, с которым ассоциируются, прежде
+                всего, вкусная кухня, качественный сервич и приятная уютная атмосфера. <br><br> Сет ”Coffe In” созданная
+                в 2010 году в городе Алматы, является полностью Казахстанским брендом.  <br><br> “Coffe In” — место, где
+                становятся друзьями! Мы создаем теплую атмосферу и всегда рады нашим гостям!</p>
+        </div>
+        <!-- /.container -->
 
+    </section>
+    <!-- /#about.section section-about -->
+
+    <section class="section section-order" id="order">
+
+            <h2 class="section-title">Хотите заказать кофе?</h2>
+
+        <div class="order-content">
+
+            <div class="container">
+                <form action="#" class="order-form">
+                    <div class="inputs">
+                        <div class="left">
+                            <input type="text" class="form-input" placeholder="Ваше имя">
+                            <input type="text" class="form-input" placeholder="Номер телефона">
+                        </div>
+                        <!-- /.left -->
+
+                        <div class="right">
+                            <textarea class="form-text" placeholder="Ваши пожеления"></textarea>
+                        </div>
+                        <!-- /.right -->
+                    </div>
+                    <!-- /.inputs -->
+                    <button class="btn btn-send-order">Отправить</button>
+                </form>
+                <!-- /.order-form -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.order-content -->
+    </section>
+    <!-- /#order.section section-order -->
+
+    <section class="section section-contacts" id="conts">
+        <div class="container">
+            <div class="contacts-box">
+                <h3 class="contacts-box__title">Контакты</h3>
+                <h4 class="contacts-box__item">Адрес: г. Алматы, ул. Абай 138.</h4>
+                <h4 class="contacts-box__item">Телефон: +7 707 123 45 67</h4>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#conts.section section-contacts -->
+</main>
+
+<footer class="footer">
+        <h5 class="footer-text">(с) 2020. Все права защищены.</h5>
+</footer>
+<!-- /.footer -->
 <script src="./assets/js/index.js"></script>
 </body>
 </html>
