@@ -19,15 +19,19 @@
             <ul class="navbar-menu">
                 <li class="navbar-menu__item"><a href="#intro" class="link navbar-menu__link">Главная</a></li>
                 <li class="navbar-menu__item"><a href="#about" class="link navbar-menu__link">О нас</a></li>
-                <li class="navbar-menu__item"><a href="#order" class="link navbar-menu__link">Заказать кофе</a></li>
+                <li class="navbar-menu__item"><a href="#order" class="link navbar-menu__link">Забронировать столик</a></li>
                 <li class="navbar-menu__item"><a href="#conts" class="link navbar-menu__link">Контакты</a></li>
             </ul>
             <!-- /.navbar-menu -->
         </nav>
         <!-- /.navbar -->
-        <h2 class="teaser">Хотите попробовать настоящий кофе? Тогда ждём вас в гости!</h2>
-        <h3 class="slogan">Любовь с первой чашки</h3>
-        <a href="#order" class="btn btn-order">Заказать кофе</a>
+        <p class="text-block-up text-block">14.02.2020 в <strong class="highlight">День святого Валентина</strong> приглашаем окунуться в атмосферу романтики в кафейне “Coffee In”.</p>
+        <p class="text-block-middle text-block">Хотите попробовать настоящий кофе? Тогда ждём вас в гости!</p>
+        <div class="text-block-down ">
+            <p class="text1">Романтический вечер</p>
+            <p class="text2">для самых влюбленных</p>
+            <a href="#romance" class="btn btn-romance">Подробнее</a>
+        </div>
     </div>
     <!-- /.container -->
 </header>
@@ -45,34 +49,50 @@
     </section>
     <!-- /#about.section section-about -->
 
-    <section class="section section-order" id="order">
-
-            <h2 class="section-title">Хотите заказать кофе?</h2>
-
-        <div class="order-content">
-
+    <section class="section section-romance" id="romance">
+        <h2 class="section-title">Романтический вечер</h2>
+        <!-- /.section-title -->
+        <div class="romance-content">
             <div class="container">
-                <form action="#" class="order-form">
-                    <div class="inputs">
-                        <div class="left">
-                            <input type="text" class="form-input" placeholder="Ваше имя">
-                            <input type="text" class="form-input" placeholder="Номер телефона">
-                        </div>
-                        <!-- /.left -->
-
-                        <div class="right">
-                            <textarea class="form-text" placeholder="Ваши пожеления"></textarea>
-                        </div>
-                        <!-- /.right -->
-                    </div>
-                    <!-- /.inputs -->
-                    <button class="btn btn-send-order">Отправить</button>
-                </form>
-                <!-- /.order-form -->
+                <div class="romance-content__head">
+                    <div class="romance-content__time">в&nbsp;&nbsp;19:00</div>
+                    <div class="romance-content__title">Вас ждет:</div>
+                </div>
+                <ul class="romance-content__body">
+                    <li class="romance-content__item">Живая музыка</li>
+                    <li class="romance-content__item">Фото на память</li>
+                    <li class="romance-content__item">Скидка 15% на все меню</li>
+                    <li class="romance-content__item">Очаровательная обстановка</li>
+                    <li class="romance-content__item">и конечно же Фирменный кофе для двоих</li>
+                </ul>
             </div>
             <!-- /.container -->
         </div>
-        <!-- /.order-content -->
+        <!-- /.romance-content -->
+    </section>
+    <!-- /#romance.section section-romance -->
+
+    <section class="section section-order" id="order">
+
+        <h2 class="section-title">Хотите забронировать столик?</h2>
+
+        <form action="#" class="order-form">
+            <div class="inputs">
+                <div class="left">
+                    <input type="text" class="form-input" placeholder="Ваше имя">
+                    <input type="text" class="form-input" placeholder="Номер телефона">
+                </div>
+                <!-- /.left -->
+
+                <div class="right">
+                    <textarea class="form-text" placeholder="Ваши пожеления"></textarea>
+                </div>
+                <!-- /.right -->
+            </div>
+            <!-- /.inputs -->
+            <button class="btn btn-send-order">Отправить</button>
+        </form>
+        <!-- /.order-form -->
     </section>
     <!-- /#order.section section-order -->
 
@@ -80,8 +100,15 @@
         <div class="container">
             <div class="contacts-box">
                 <h3 class="contacts-box__title">Контакты</h3>
-                <h4 class="contacts-box__item">Адрес: г. Алматы, ул. Абай 138.</h4>
-                <h4 class="contacts-box__item">Телефон: +7 707 123 45 67</h4>
+                <h4 class="contacts-box__item address">Алматы, ул. Абай 138.</h4>
+                <h4 class="contacts-box__item phone">+7 707 123 45 67</h4>
+                <h4 class="contacts-box__item mail">mail@cofeein.com</h4>
+
+                <ul class="contacts-box__social">
+                    <li class="item fb"></li>
+                    <li class="item vk"></li>
+                    <li class="item ig"></li>
+                </ul>
             </div>
         </div>
         <!-- /.container -->
